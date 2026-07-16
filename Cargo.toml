@@ -1,0 +1,18 @@
+[package]
+name = "model-vit"
+version = "0.0.0"
+edition = "2024"
+autoexamples = false
+
+[dependencies]
+burn = { version = "0.21.0", features = ["wgpu", "train"] }
+image = { version = "0.25.10" }
+walkdir = { version = "2.5.0" }
+
+[[example]]
+name = "dogcat_train"
+path = "examples/dogcat/train.rs"
+
+[[example]]
+name = "dogcat_inference"
+path = "examples/dogcat/inference.rs"

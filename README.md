@@ -1,0 +1,5 @@
+- Example
+  - dogcat
+    - dataset: https://www.kaggle.com/datasets/aleemaparakatta/cats-and-dogs-mini-dataset/data
+    - To train ```cargo run --example dogcat_train```
+    - To inference ```cargo run --example dogcat_inference```
